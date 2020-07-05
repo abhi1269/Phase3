@@ -360,4 +360,118 @@ remote:      https://github.com/abhi1269/Phase3/pull/new/c1
 remote:
 To https://github.com/abhi1269/Phase3.git
  * [new branch]      c1 -> c1
+[root@ip-172-31-53-130 Phase3]#[root@ip-172-31-53-130 Phase3]# git add z.txt
+[root@ip-172-31-53-130 Phase3]# git commit -m "z"
+-bash: -rw-r--r--.: command not found
+[root@ip-172-31-53-130 Phase3]# [root@ip-172-31-53-130 Phase3]# vi z.txt
+-bash: [root@ip-172-31-53-130: command not found
+[root@ip-172-31-53-130 Phase3]# [root@ip-172-31-53-130 Phase3]# git add z.txt
+-bash: [root@ip-172-31-53-130: command not found
+[root@ip-172-31-53-130 Phase3]# [root@ip-172-31-53-130 Phase3]# git commit -m "z"
+-bash: [root@ip-172-31-53-130: command not found
+[root@ip-172-31-53-130 Phase3]# [c1 fab983c] z
+-bash: [c1: command not found
+[root@ip-172-31-53-130 Phase3]#  Committer: root <root@ip-172-31-53-130.ec2.internal>
+-bash: syntax error near unexpected token `newline'
+[root@ip-172-31-53-130 Phase3]# Your name and email address were configured automatically based
+-bash: Your: command not found
+[root@ip-172-31-53-130 Phase3]# on your username and hostname. Please check that they are accurate.
+
+    git commit --amend --reset-author
+-bash: on: command not found
+[root@ip-172-31-53-130 Phase3]# You can suppress this message by setting them explicitly. Run the
+
+-bash: You: command not found
+[root@ip-172-31-53-130 Phase3]# following command and follow the instructions in your editor to edit
+ 1 file changed, 3 insertions(+)
+ create mode 100644 z.txt
+[root@ip-172-31-53-130 Phase3]# git push origin c1
+Username for 'https://github.com': abhi1269
+Password for 'https://abhi1269@github.com':
+To https://github.com/abhi1269/Phase3.git
+ ! [rejected]        c1 -> c1 (fetch first)
+error: failed to push some refs to 'https://github.com/abhi1269/Phase3.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[root@ip-172-31-53-130 Phase3]# git pull origin
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+-bash: following: command not found
+[root@ip-172-31-53-130 Phase3]# your configuration file:
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/abhi1269/Phase3
+-bash: your: command not found
+[root@ip-172-31-53-130 Phase3]#
+[root@ip-172-31-53-130 Phase3]#     git config --global --edit
+   1e873b0..bda406b  c1         -> origin/c1
+   99b3765..47ab393  master     -> origin/master
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+[root@ip-172-31-53-130 Phase3]# ls -la
+total 52
+drwxr-xr-x. 3 root root   139 Jul  5 19:14 .
+drwxr-xr-x. 4 root root    58 Jul  5 18:41 ..
+drwxr-xr-x. 8 root root   220 Jul  5 19:15 .git
+-rw-r--r--. 1 root root    36 Jul  5 18:38 h.txt
+-rw-r--r--. 1 root root    19 Jul  5 18:38 j.txt
+-rw-r--r--. 1 root root    34 Jul  5 18:39 k.txt
+-rw-r--r--. 1 root root 23882 Jul  5 18:53 Log_20200705.txt
+-rw-r--r--. 1 root root    13 Jul  5 19:02 l.txt
+-rw-r--r--. 1 root root    10 Jul  5 18:50 new.txt
+-rw-r--r--. 1 root root    16 Jul  5 18:38 README.md
+-rw-r--r--. 1 root root    15 Jul  5 19:14 z.txt
+[root@ip-172-31-53-130 Phase3]# git pull origin c1
+From https://github.com/abhi1269/Phase3
+ * branch            c1         -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ Practice_log_20200505.txt | 363 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 363 insertions(+)
+ create mode 100644 Practice_log_20200505.txt
+[root@ip-172-31-53-130 Phase3]# ls -la
+total 68
+drwxr-xr-x. 3 root root   172 Jul  5 19:16 .
+drwxr-xr-x. 4 root root    58 Jul  5 18:41 ..
+drwxr-xr-x. 8 root root   220 Jul  5 19:16 .git
+-rw-r--r--. 1 root root    36 Jul  5 18:38 h.txt
+-rw-r--r--. 1 root root    19 Jul  5 18:38 j.txt
+-rw-r--r--. 1 root root    34 Jul  5 18:39 k.txt
+-rw-r--r--. 1 root root 23882 Jul  5 18:53 Log_20200705.txt
+hint: Waiting for your editor to close the file...
+From https://github.com/abhi1269/Phase3
+ * branch            c1         -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ Practice_log_20200505.txt | 363 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 363 insertions(+)
+ create mode 100644 Practice_log_20200505.txt
+[root@ip-172-31-53-130 Phase3]# ls -la
+total 68
+drwxr-xr-x. 3 root root   172 Jul  5 19:16 .
+drwxr-xr-x. 4 root root    58 Jul  5 18:41 ..
+drwxr-xr-x. 8 root root   220 Jul  5 19:16 .git
+-rw-r--r--. 1 root root    36 Jul  5 18:38 h.txt
+-rw-r--r--. 1 root root    19 Jul  5 18:38 j.txt
+-rw-r--r--. 1 root root    34 Jul  5 18:39 k.txt
+-rw-r--r--. 1 root root 23882 Jul  5 18:53 Log_20200705.txt
+-rw-r--r--. 1 root root    13 Jul  5 19:02 l.txt
+-rw-r--r--. 1 root root    10 Jul  5 18:50 new.txt
+-rw-r--r--. 1 root root 15786 Jul  5 19:16 Practice_log_20200505.txt
+-rw-r--r--. 1 root root    16 Jul  5 18:38 README.md
+-rw-r--r--. 1 root root    15 Jul  5 19:14 z.txt
+[root@ip-172-31-53-130 Phase3]# git push origin c1
+Username for 'https://github.com': abhi1269
+Password for 'https://abhi1269@github.com':
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 523 bytes | 523.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/abhi1269/Phase3.git
+   bda406b..4bb28a2  c1 -> c1
 [root@ip-172-31-53-130 Phase3]#
